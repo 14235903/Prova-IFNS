@@ -12,6 +12,8 @@
 
 using namespace std;
 
+// commento prova da VS code Pietro
+
 
 //-----------------------------------------------------------Struttura programma-------------------------------------------------------------//
 /*
@@ -26,6 +28,7 @@ void SpettroTh(){
 
 //-------------------------------------------------------------Acquisizione dati-------------------------------------------------------------//
 
+	int a = 0;
 	const int nmisure = 7;		//ho messo 7 perché i valori teorici attesi sono 7, ma ce ne potrebbe essere un ottavo da considerare (quello Th->Ra con la probabilità del 28%)
 	//da riempire con dati sperimentali
 	double CHN[] = {785, 1075, 1128, 1200, 1247, 1347, 1743};
